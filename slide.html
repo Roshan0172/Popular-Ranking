@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SLIDER </title>
+    <style>
+        body{
+            background-color: azure;
+        }
+#ht{
+    font-size: 15px;
+    margin: 6px 20px;
+    
+}
+.containerSlider
+{
+    width: 85%;
+    height: 340px;
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -200px;
+    background-image: url('img/OnePiece.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 20s infinite ease;
+}
+@keyframes slider {
+    0%{background-image: url("img/OnePiece.jpg");}
+
+    25%{background-image: url("img/Naruto.jpg");}
+
+    50%{background-image: url("img/bleach.jpg");}
+
+    75%{background-image: url("img/Aot.jpg");}
+
+}
+    </style>
+</head>
+<body>
+    <div id="ht"]>
+        <a href="" style="color: black; text-decoration: none;" >Home</a>
+        <a>></a>
+        <a href="" style="color: black; text-decoration: none;">Top Anime</a>
+    </div>
+    <div class="containerSlider"></div>
+</body>
+</html>

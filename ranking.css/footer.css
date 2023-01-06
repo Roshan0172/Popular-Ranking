@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+
+}
+#footer{
+    background-color: black;
+    color: aliceblue;    
+    position: static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 300px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 25px;
+}
+#webFooter h3{
+    font-size: 20px;
+}
+#webFooter h2{
+    font-size: 20px;
+}
+#webFooter h1{
+    font-size: 20px;
+}
+#webfooter{
+    text-align: center;
+}

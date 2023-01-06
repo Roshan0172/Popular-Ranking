@@ -1,0 +1,5 @@
+body{
+    margin: auto;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    overflow-y: scroll;
+}
