@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popular Rankings</title>
     <link rel="import" href="header.html">
     <link rel="stylesheet" href="ranking.css/header.css">
     <link rel="stylesheet" href="footer.html">
     <link rel="stylesheet" href="ranking.css/footer.css">
+    <link rel="stylesheet" href="ranking.css/carousel.css">
+    <link rel="javascript" href="ranking.js/carousel.js">
 </head>
 <body>
     <div id="1"></div>
@@ -24,8 +26,8 @@
     </script>
     <div id="2"></div>
     <script>
-        load("slide.html");
-        function load(url)
+        load("carousel.html");
+        function load(url )
         {
             req = new XMLHttpRequest();
             req.open("GET", url, false);
@@ -55,7 +57,6 @@
             document.getElementById(4).innerHTML = req.responseText;
         }
     </script>
-    
-    
+    <script type="text/javascript" src="ranking.js/carousel.js"></script>
 </body>
 </html>
